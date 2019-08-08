@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello Page</title>
+    </head>
+    <body>
+        <h1>Hello {{given_name}}</h1>
+        <h2>You are user {{given_id}}</h2>
+
+        {% for i in range(0,given_id,1) %}
+            <p>Hello {{given_name}}</p>
+        {% endfor %}
+    </body>
+</html>

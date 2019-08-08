@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello Flask Test</title>
+    </head>
+    <body>
+        <h1>Hello Flask</h1>
+        <h2>You have rendered index.html</h2>
+        <p>Phrase: {{phrase}}</p>
+
+        {% for x in range(0,times,1) %}
+            <p>{{phrase}}</p>
+        {% endfor %}
+
+        {% if phrase == 'hello' %}
+            <p>The phrase says {{phrase}}!</p>
+        {% endif %}
+    </body>
+</html>
